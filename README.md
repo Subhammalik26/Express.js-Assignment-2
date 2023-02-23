@@ -11,7 +11,7 @@ On "create" route show form with "userName" input and submit button. On submit b
 On "users" route show all the users which we stored in text file. On first attempt there were no users stored so if there are no users then redirect them to "create" route.
 
 
-**OUTPUT:-**
+# OUTPUT:-
 
 ![home_page](https://user-images.githubusercontent.com/99710364/220830973-e4336fc2-f821-4785-8bd0-ed4dfea5b6d0.png)
 
