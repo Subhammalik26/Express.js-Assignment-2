@@ -6,7 +6,7 @@ const user = express();
 
 user.use(bodyParser.urlencoded({ extended: false }));  // Parsing the URL-encoded data.
 
-// Define a simple middleware function
+// Use a simple middleware function
 user.use((req, res, next) => {
   console.log('Middleware function called');
   next();     // Call the next middleware function or route handler
