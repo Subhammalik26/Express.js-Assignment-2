@@ -42,7 +42,7 @@ user.get('/users', (req, res, next) => {
  fs.readFile('users.txt', 'utf-8', (err, data) => {    // Read the data from the text file.
   if (err) {
     res.redirect('/create');   //If there are no user then redirect to "create" route.
-  } else if (data === null) {
+  } else if (data === '') {
     res.redirect('/create');   //If there are no user then redirect to "create" route.
   }
   else {
